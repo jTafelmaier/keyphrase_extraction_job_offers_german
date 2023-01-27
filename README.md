@@ -1,17 +1,17 @@
 
 
 
-#### Python keyphrase extraction from german job offers
+### Python keyphrase extraction from german job offers
 
 
 
-### NOTES
+#### NOTES
 - Use pip to install all dependencies in file "requirements.txt".
 - "_app_test_keywords.py" is the main script from which most other relevant functions can be called.
 - All contents of the "lib" directory were not developed as part of the bachelor thesis and are merely used.
 
 
-content of "_app_test_keywords.py":
+#### content of "_app_test_keywords.py":
 
 ```python
 
@@ -50,7 +50,7 @@ for text_keyword in _model_T5.get_list_lists_texts_keywords_load_model([text])[0
     print(" - " + text_keyword)
 ```
 
-### result of executing "_app_test_keywords.py":
+#### result of executing "_app_test_keywords.py":
 
 ```bash
 predicted keywords:
